@@ -23,8 +23,10 @@ img{display:block;max-width:100%}
 }
 .brand{font-weight:800;font-size:1.15rem;color:var(--ink)}
 .brand:hover{text-decoration:none}
-.ebay-all{font-size:.85rem;font-weight:600;background:var(--ink);color:#fff;padding:.4rem .7rem;border-radius:999px}
-.ebay-all:hover{text-decoration:none;opacity:.9}
+.wa-link{display:inline-flex;align-items:center;gap:.35rem;font-size:.85rem;font-weight:700;background:#25d366;color:#06301a;padding:.4rem .8rem;border-radius:999px}
+.wa-link:hover{text-decoration:none;filter:brightness(1.05)}
+.wa{width:1.05em;height:1.05em;flex:0 0 auto}
+.buy .wa{width:1.25em;height:1.25em}
 
 /* hero */
 .hero{max-width:var(--maxw);margin:0 auto;padding:1.8rem 1.1rem .6rem}
@@ -90,10 +92,11 @@ main{max-width:var(--maxw);margin:0 auto;padding:0 1.1rem 2rem}
 .iprice{font-size:1.6rem;font-weight:800;color:var(--price);margin:.3rem 0 .9rem}
 .iprice .guide{font-size:.8rem;font-weight:600;color:var(--muted);margin-left:.3rem;vertical-align:middle}
 .buy{
-  display:block;text-align:center;background:var(--accent);color:#fff;font-weight:700;font-size:1.05rem;
+  display:flex;align-items:center;justify-content:center;gap:.5rem;text-align:center;
+  background:#25d366;color:#06301a;font-weight:700;font-size:1.05rem;
   padding:.85rem 1rem;border-radius:999px;box-shadow:var(--shadow);
 }
-.buy:hover{text-decoration:none;background:var(--accent-dark)}
+.buy:hover{text-decoration:none;filter:brightness(1.04)}
 .buy-note{font-size:.82rem;color:var(--muted);margin:.55rem 0 1.1rem}
 .ispecs{display:flex;flex-wrap:wrap;gap:.4rem .4rem;margin:0 0 1.1rem;padding:0}
 .ispecs div{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:.4rem .6rem}
@@ -109,7 +112,7 @@ main{max-width:var(--maxw);margin:0 auto;padding:0 1.1rem 2rem}
 .about{max-width:42rem;padding-top:1.4rem}
 .about h1{font-size:1.7rem}
 .about p{font-size:1.02rem;margin:.8rem 0}
-.about .buy{display:inline-block;margin:.4rem 0}
+.about .buy{display:inline-flex;margin:.4rem 0}
 
 /* footer */
 .foot{max-width:var(--maxw);margin:0 auto;padding:1.6rem 1.1rem 3rem;color:var(--muted);font-size:.85rem;border-top:1px solid var(--line)}
