@@ -122,12 +122,11 @@ main{max-width:var(--maxw);margin:0 auto;padding:0 1.1rem 2rem}
 .flyer{max-width:780px}
 .flyer-sheet{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:2rem;text-align:center;box-shadow:var(--shadow)}
 .flyer-sheet h1{font-size:3rem;margin:.2rem 0;letter-spacing:-.02em}
-.ftag{font-size:1.15rem;color:var(--muted);margin:.2rem 0 1.2rem}
-.fgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:.6rem;margin:1rem 0 1.4rem}
-.fitem{border:1px solid var(--line);border-radius:10px;overflow:hidden;background:#faf8f5}
-.fitem img{width:100%;aspect-ratio:1/1;object-fit:cover}
-.fitem span{display:block;font-size:.7rem;padding:.3rem;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.fqr{display:flex;align-items:center;justify-content:center;gap:1.2rem;margin:1.2rem 0}
+.fintro{font-size:1.15rem;line-height:1.55;color:var(--ink);max-width:34rem;margin:1rem auto 1.4rem}
+.frange{font-size:1.25rem;font-weight:800;margin:.2rem 0 .8rem}
+.fcats{list-style:none;display:inline-block;text-align:left;margin:0 auto 1.4rem;padding:0;columns:2;column-gap:2rem}
+.fcats li{font-size:1.2rem;font-weight:600;margin:.35rem 0;break-inside:avoid}
+.fqr{display:flex;align-items:center;justify-content:center;gap:1.2rem;margin:1.4rem 0 .4rem;border-top:1px solid var(--line);padding-top:1.4rem}
 .fqr img{width:180px;height:180px}
 .fqr-text{text-align:left}
 .fqr-text strong{display:block;font-size:1.2rem}
