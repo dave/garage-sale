@@ -124,8 +124,8 @@ main{max-width:var(--maxw);margin:0 auto;padding:0 1.1rem 2rem}
 .flyer-sheet h1{font-size:3rem;margin:.2rem 0;letter-spacing:-.02em}
 .fintro{font-size:1.15rem;line-height:1.55;color:var(--ink);max-width:34rem;margin:1rem auto 1.4rem}
 .frange{font-size:1.25rem;font-weight:800;margin:.2rem 0 .8rem}
-.fcats{list-style:none;display:inline-block;text-align:left;margin:0 auto 1.4rem;padding:0;columns:2;column-gap:2rem}
-.fcats li{font-size:1.2rem;font-weight:600;margin:.35rem 0;break-inside:avoid}
+.fcats{list-style:none;display:inline-block;text-align:left;margin:.2rem auto 1.4rem;padding:0}
+.fcats li{font-size:1.3rem;font-weight:600;margin:.45rem 0}
 .fqr{display:flex;align-items:center;justify-content:center;gap:1.2rem;margin:1.4rem 0 .4rem;border-top:1px solid var(--line);padding-top:1.4rem}
 .fqr img{width:180px;height:180px}
 .fqr-text{text-align:left}
